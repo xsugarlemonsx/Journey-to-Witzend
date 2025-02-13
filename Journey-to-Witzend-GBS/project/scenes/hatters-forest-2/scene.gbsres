@@ -1,0 +1,22 @@
+{
+  "_resourceType": "scene",
+  "id": "c4685bb9-291d-46c4-ba8e-c558d7924e69",
+  "_index": 5,
+  "name": "hatters-forest-2",
+  "backgroundId": "1e5f9d6a-bdbc-43e6-8c34-22f5bb5dea05",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_6",
+  "x": 352,
+  "y": 656,
+  "script": [],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

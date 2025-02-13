@@ -1,0 +1,22 @@
+{
+  "_resourceType": "scene",
+  "id": "a46c8a43-48c1-417b-adbd-4a42d323eb38",
+  "_index": 23,
+  "name": "castle-south-staircase",
+  "backgroundId": "1e5f9d6a-bdbc-43e6-8c34-22f5bb5dea05",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_24",
+  "x": 2184,
+  "y": 464,
+  "script": [],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

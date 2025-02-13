@@ -1,0 +1,22 @@
+{
+  "_resourceType": "scene",
+  "id": "fc67b9d1-f56c-4957-a966-644c872dc325",
+  "_index": 31,
+  "name": "speakeasy-lounge",
+  "backgroundId": "1e5f9d6a-bdbc-43e6-8c34-22f5bb5dea05",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_32",
+  "x": 816,
+  "y": 864,
+  "script": [],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

@@ -1,0 +1,22 @@
+{
+  "_resourceType": "scene",
+  "id": "099429fa-91ea-4c57-939f-2447839761cd",
+  "_index": 34,
+  "name": "end-horizon-goodbye-cheshire",
+  "backgroundId": "1e5f9d6a-bdbc-43e6-8c34-22f5bb5dea05",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_35",
+  "x": 1400,
+  "y": 880,
+  "script": [],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

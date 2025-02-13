@@ -1,0 +1,22 @@
+{
+  "_resourceType": "scene",
+  "id": "effb7877-5108-4400-9cbc-fe07728fa704",
+  "_index": 6,
+  "name": "secret-nook-2-key-to-rose-garden",
+  "backgroundId": "1e5f9d6a-bdbc-43e6-8c34-22f5bb5dea05",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_7",
+  "x": 120,
+  "y": 656,
+  "script": [],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

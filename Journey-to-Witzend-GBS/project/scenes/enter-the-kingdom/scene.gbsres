@@ -1,0 +1,22 @@
+{
+  "_resourceType": "scene",
+  "id": "c4b96f94-bd32-4c77-a879-5de57f7cb9c0",
+  "_index": 7,
+  "name": "enter-the-kingdom",
+  "backgroundId": "1e5f9d6a-bdbc-43e6-8c34-22f5bb5dea05",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_8",
+  "x": 600,
+  "y": 664,
+  "script": [],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

@@ -1,0 +1,22 @@
+{
+  "_resourceType": "scene",
+  "id": "e4e5f80b-bcc1-4f2b-a9fa-582c5d991a38",
+  "_index": 1,
+  "name": "hatters-tea-party",
+  "backgroundId": "1e5f9d6a-bdbc-43e6-8c34-22f5bb5dea05",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_2",
+  "x": 344,
+  "y": 248,
+  "script": [],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

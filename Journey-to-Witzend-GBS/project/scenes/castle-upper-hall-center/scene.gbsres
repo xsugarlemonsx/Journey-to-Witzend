@@ -1,0 +1,22 @@
+{
+  "_resourceType": "scene",
+  "id": "ef315c24-8065-47a5-abad-f3830acc48ac",
+  "_index": 26,
+  "name": "castle-upper-hall-center",
+  "backgroundId": "1e5f9d6a-bdbc-43e6-8c34-22f5bb5dea05",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_27",
+  "x": 2400,
+  "y": 264,
+  "script": [],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

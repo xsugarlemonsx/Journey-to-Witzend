@@ -1,0 +1,22 @@
+{
+  "_resourceType": "scene",
+  "id": "7c37b1b6-3ad0-49f5-b9ad-f46df11f26f3",
+  "_index": 32,
+  "name": "speakeasy-bar-area",
+  "backgroundId": "1e5f9d6a-bdbc-43e6-8c34-22f5bb5dea05",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_33",
+  "x": 1016.9000928521223,
+  "y": 868.0934494840745,
+  "script": [],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

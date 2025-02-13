@@ -1,0 +1,22 @@
+{
+  "_resourceType": "scene",
+  "id": "0e103916-ded2-41cd-b168-58ca7587e4aa",
+  "_index": 18,
+  "name": "castle-lobby",
+  "backgroundId": "1e5f9d6a-bdbc-43e6-8c34-22f5bb5dea05",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_19",
+  "x": 1768,
+  "y": 264,
+  "script": [],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

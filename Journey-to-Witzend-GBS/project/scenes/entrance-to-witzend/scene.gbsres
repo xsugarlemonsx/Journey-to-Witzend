@@ -1,0 +1,22 @@
+{
+  "_resourceType": "scene",
+  "id": "9b641a1a-6ebf-48cf-8ba9-befb1a92675d",
+  "_index": 16,
+  "name": "entrance-to-witzend",
+  "backgroundId": "1e5f9d6a-bdbc-43e6-8c34-22f5bb5dea05",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_17",
+  "x": 1520,
+  "y": 464,
+  "script": [],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

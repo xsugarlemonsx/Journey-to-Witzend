@@ -1,0 +1,22 @@
+{
+  "_resourceType": "scene",
+  "id": "7bf546db-3834-408c-9cfb-2efe077807d8",
+  "_index": 14,
+  "name": "exit-the-house-of-cards",
+  "backgroundId": "1e5f9d6a-bdbc-43e6-8c34-22f5bb5dea05",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_15",
+  "x": 1296,
+  "y": 264,
+  "script": [],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

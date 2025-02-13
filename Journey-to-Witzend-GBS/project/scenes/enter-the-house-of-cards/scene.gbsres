@@ -1,0 +1,22 @@
+{
+  "_resourceType": "scene",
+  "id": "10cce12a-24d6-47c6-af48-1d68abe3f38f",
+  "_index": 10,
+  "name": "enter-the-house-of-cards",
+  "backgroundId": "1e5f9d6a-bdbc-43e6-8c34-22f5bb5dea05",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_11",
+  "x": 848,
+  "y": 264,
+  "script": [],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

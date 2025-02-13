@@ -1,0 +1,22 @@
+{
+  "_resourceType": "scene",
+  "id": "da5cad7d-3518-4583-b585-8763860e496e",
+  "_index": 33,
+  "name": "speakeasy-exit-hallway",
+  "backgroundId": "1e5f9d6a-bdbc-43e6-8c34-22f5bb5dea05",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_34",
+  "x": 1208,
+  "y": 872,
+  "script": [],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

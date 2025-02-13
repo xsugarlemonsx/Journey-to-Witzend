@@ -1,0 +1,22 @@
+{
+  "_resourceType": "scene",
+  "id": "a7674c84-69f3-433c-9da8-3592a2b4bded",
+  "_index": 0,
+  "name": "spawn-bottom-of-the-rabbit-hole",
+  "backgroundId": "1e5f9d6a-bdbc-43e6-8c34-22f5bb5dea05",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_1",
+  "x": 117,
+  "y": 245,
+  "script": [],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

@@ -1,0 +1,22 @@
+{
+  "_resourceType": "scene",
+  "id": "7d9f0750-f662-4ecb-ba32-9495e54932a4",
+  "_index": 8,
+  "name": "red-queens-kingdom-1",
+  "backgroundId": "1e5f9d6a-bdbc-43e6-8c34-22f5bb5dea05",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_9",
+  "x": 600,
+  "y": 464,
+  "script": [],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

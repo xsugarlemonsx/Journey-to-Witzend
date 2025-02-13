@@ -1,0 +1,22 @@
+{
+  "_resourceType": "scene",
+  "id": "dd1d336c-3286-43c0-b335-99dec8dc3b55",
+  "_index": 12,
+  "name": "house-of-cards-hall",
+  "backgroundId": "1e5f9d6a-bdbc-43e6-8c34-22f5bb5dea05",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_13",
+  "x": 1088,
+  "y": 264,
+  "script": [],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}
