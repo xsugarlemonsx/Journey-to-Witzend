@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "e884eb24-fd24-4d46-8051-80b82a02d5fd",
+  "name": "starting_room",
+  "symbol": "bg_starting_room",
+  "width": 20,
+  "height": 30,
+  "imageWidth": 160,
+  "imageHeight": 240,
+  "filename": "starting_room.png",
+  "tileColors": ""
+}
