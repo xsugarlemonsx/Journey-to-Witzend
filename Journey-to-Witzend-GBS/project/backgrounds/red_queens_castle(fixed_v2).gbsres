@@ -8,5 +8,6 @@
   "imageWidth": 160,
   "imageHeight": 184,
   "filename": "red queens castle(fixed v2).png",
-  "tileColors": ""
+  "tileColors": "",
+  "autoColor": false
 }
