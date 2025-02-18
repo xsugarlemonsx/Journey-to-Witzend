@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "b2e594c5-dc12-4504-8ee6-7385235a6b9c",
+  "name": "red queens castle part two",
+  "symbol": "bg_red_queens_castle_part_t",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "red queens castle part two.png",
+  "tileColors": "",
+  "autoColor": false
+}

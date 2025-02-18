@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "65da87d8-e302-4243-abc7-1514f960edf7",
+  "name": "red queens castle",
+  "symbol": "bg_red_queens_castle",
+  "width": 20,
+  "height": 23,
+  "imageWidth": 160,
+  "imageHeight": 190,
+  "filename": "red queens castle.png",
+  "tileColors": "",
+  "autoColor": false
+}

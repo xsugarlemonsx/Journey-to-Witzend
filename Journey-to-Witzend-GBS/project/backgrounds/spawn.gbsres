@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "489d598b-9aea-40e5-a8eb-cb440130bdd2",
+  "name": "spawn",
+  "symbol": "bg_spawn",
+  "width": 20,
+  "height": 30,
+  "imageWidth": 160,
+  "imageHeight": 240,
+  "filename": "spawn.png",
+  "tileColors": "",
+  "autoColor": false
+}

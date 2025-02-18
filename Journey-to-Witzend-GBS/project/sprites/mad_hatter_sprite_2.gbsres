@@ -1,0 +1,101 @@
+{
+  "_resourceType": "sprite",
+  "id": "e7368010-801f-4f28-a698-6b48735522ee",
+  "name": "mad hatter sprite 2",
+  "symbol": "sprite_mad_hatter_sprite_2",
+  "numFrames": 2,
+  "filename": "mad hatter sprite 2.png",
+  "checksum": "3cb66227064215b8deb3636c137efc26638b1414",
+  "width": 32,
+  "height": 32,
+  "states": [
+    {
+      "id": "2d7eec23-d88e-4646-a719-08028fbe8841",
+      "name": "",
+      "animationType": "multi_movement",
+      "flipLeft": true,
+      "animations": [
+        {
+          "id": "339423d0-0d85-49cb-a52b-ea23773aa146",
+          "frames": [
+            {
+              "id": "64e9bdea-b02e-4b8f-9ba8-84f8f2f73736",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "4548b09a-6068-4546-a294-72e7823e06f6",
+          "frames": [
+            {
+              "id": "a1113abc-1ba4-4dcb-9e13-18e0604e4521",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "30cf1ae0-566a-4c95-b359-ed48c7959952",
+          "frames": [
+            {
+              "id": "24897ed4-8e53-4942-ad8d-077f3ecd795c",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "b4fe1d37-5c7f-4615-bac8-2cdf4034776f",
+          "frames": [
+            {
+              "id": "c9b93c10-056a-4fce-aa0b-6ab13f85bcae",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "e7c26521-7fbe-4239-9b0e-7f28c6b83245",
+          "frames": [
+            {
+              "id": "993a1f01-a809-43b8-888e-b55c1a15e93d",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "af194b5a-862b-468f-90ec-9cbe744a3922",
+          "frames": [
+            {
+              "id": "b4b778d6-092b-40ac-a0eb-9af7c103b2e1",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "ff4b6006-4554-4fc6-9640-b7cc1787fa1e",
+          "frames": [
+            {
+              "id": "6186b2b2-29fd-46ec-a28e-a57e181cc103",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "479ab56d-3ba2-48d9-bac3-4d6fa3c108ae",
+          "frames": [
+            {
+              "id": "1567f442-03d4-4bac-9b85-d48812e549a9",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 0,
+  "canvasWidth": 32,
+  "canvasHeight": 32,
+  "boundsX": 0,
+  "boundsY": 0,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15
+}
