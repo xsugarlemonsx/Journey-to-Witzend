@@ -28,6 +28,17 @@
       "id": "013bfd8c-a2ac-47f7-9cdf-7d1ba1d225fd"
     }
   ],
-  "leaveScript": [],
+  "leaveScript": [
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "0",
+        "value": {
+          "type": "true"
+        }
+      },
+      "id": "ae44f7d7-fc75-4299-aa41-95d7293d3ac4"
+    }
+  ],
   "_index": 2
 }

@@ -1,31 +1,73 @@
 {
   "_resourceType": "trigger",
-  "id": "6180f7b0-cbf8-4c27-8355-ba7914997879",
+  "id": "6a817a93-8f0b-485a-92ef-7356164ab284",
   "name": "",
   "prefabId": "",
-  "x": 8,
-  "y": 16,
-  "symbol": "trigger_4",
+  "x": 7,
+  "y": 0,
+  "symbol": "trigger_2",
   "prefabScriptOverrides": {},
-  "width": 4,
-  "height": 2,
+  "width": 6,
+  "height": 1,
   "script": [
     {
-      "command": "EVENT_SWITCH_SCENE",
+      "command": "EVENT_IF",
       "args": {
-        "sceneId": "97b411e0-2ce5-4c04-9dcf-1ef8097282b3",
-        "x": {
-          "type": "number",
-          "value": 9
+        "condition": {
+          "type": "variable",
+          "value": "0"
         },
-        "y": {
-          "type": "number",
-          "value": 3
-        },
-        "direction": "",
-        "fadeSpeed": "2"
+        "__collapseElse": false
       },
-      "id": "6bf304b4-5a98-4a65-acd7-f091c0041d02"
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "af2a404a-fe79-4cd5-ac9f-4a3cde5a371c",
+              "x": {
+                "type": "number",
+                "value": 9
+              },
+              "y": {
+                "type": "number",
+                "value": 15
+              },
+              "direction": "",
+              "fadeSpeed": "2"
+            },
+            "id": "75fa648c-8037-4728-8523-28125c678fb8"
+          }
+        ],
+        "false": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "The gate is locked."
+              ],
+              "__section": "behavior",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "any",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "efd080a8-8699-40e2-91d8-10c48e102d9b"
+          }
+        ]
+      },
+      "id": "9df02cb5-e74e-4006-827f-b72e59fb0f99"
     }
   ],
   "leaveScript": [],
