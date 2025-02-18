@@ -8,5 +8,6 @@
   "imageWidth": 160,
   "imageHeight": 240,
   "filename": "starting_room.png",
-  "tileColors": ""
+  "tileColors": "",
+  "autoColor": false
 }
