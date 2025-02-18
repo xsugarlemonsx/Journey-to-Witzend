@@ -1,0 +1,51 @@
+{
+  "_resourceType": "trigger",
+  "id": "be5060e8-1fe9-4017-bcf9-6f77ca1724fc",
+  "name": "",
+  "prefabId": "",
+  "x": 6,
+  "y": 6,
+  "symbol": "trigger_77",
+  "prefabScriptOverrides": {},
+  "width": 4,
+  "height": 3,
+  "script": [
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "1",
+        "value": {
+          "type": "true"
+        }
+      },
+      "id": "8f12ddae-89c7-4413-8670-f71a802440b2"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "* Bandersnatch's\neye added."
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "3f643355-2744-4b8d-a86f-a0c53577b384"
+    }
+  ],
+  "leaveScript": [],
+  "_index": 2
+}

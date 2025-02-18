@@ -3,8 +3,8 @@
   "id": "5b967e70-e61a-4424-8ce3-c248a2fbf67d",
   "name": "",
   "prefabId": "",
-  "x": 2,
-  "y": 17,
+  "x": 3,
+  "y": 19,
   "symbol": "trigger_9",
   "prefabScriptOverrides": {},
   "width": 2,
@@ -16,11 +16,11 @@
         "sceneId": "a9eb51db-51e1-430c-9554-8c704f01ea67",
         "x": {
           "type": "number",
-          "value": 2
+          "value": 14
         },
         "y": {
           "type": "number",
-          "value": 3
+          "value": 15
         },
         "direction": "",
         "fadeSpeed": "2"
