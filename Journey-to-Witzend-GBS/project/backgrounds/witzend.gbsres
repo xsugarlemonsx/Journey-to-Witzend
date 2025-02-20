@@ -8,5 +8,6 @@
   "imageWidth": 480,
   "imageHeight": 480,
   "filename": "witzend.png",
-  "tileColors": ""
+  "tileColors": "",
+  "autoColor": false
 }
