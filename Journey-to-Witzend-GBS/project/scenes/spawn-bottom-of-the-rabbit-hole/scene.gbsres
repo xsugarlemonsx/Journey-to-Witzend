@@ -2,19 +2,28 @@
   "_resourceType": "scene",
   "id": "a7674c84-69f3-433c-9da8-3592a2b4bded",
   "_index": 0,
-  "name": "spawn-bottom-of-the-rabbit-hole",
-  "backgroundId": "e884eb24-fd24-4d46-8051-80b82a02d5fd",
-  "tilesetId": "",
-  "width": 20,
-  "height": 30,
   "type": "TOPDOWN",
-  "paletteIds": [],
-  "spritePaletteIds": [],
-  "collisions": "",
-  "autoFadeSpeed": 1,
+  "name": "spawn-bottom-of-the-rabbit-hole",
   "symbol": "scene_1",
   "x": 112,
   "y": 152,
+  "width": 20,
+  "height": 30,
+  "backgroundId": "e884eb24-fd24-4d46-8051-80b82a02d5fd",
+  "tilesetId": "",
+  "paletteIds": [
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "default-ui"
+  ],
+  "spritePaletteIds": [],
+  "autoFadeSpeed": 1,
+  "playerSpriteSheetId": "532eda68-2964-478a-8d5b-bc239ee35638",
   "script": [
     {
       "command": "EVENT_SET_VALUE",
@@ -25,10 +34,70 @@
         }
       },
       "id": "93915886-8f56-47ee-81b4-0c606b8da957"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "1",
+        "value": {
+          "type": "false"
+        }
+      },
+      "id": "04e9796e-3f81-43db-a591-5c1c1f6255d4"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "2",
+        "value": {
+          "type": "false"
+        }
+      },
+      "id": "772872b2-5e36-42a8-9beb-70e7606cde0e"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "3",
+        "value": {
+          "type": "false"
+        }
+      },
+      "id": "e3b81e7a-fd4f-4993-bba7-8d8394fcbcd3"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "4",
+        "value": {
+          "type": "false"
+        }
+      },
+      "id": "eff9fbe8-f50b-4e19-8bda-635b4c83559f"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "5",
+        "value": {
+          "type": "false"
+        }
+      },
+      "id": "02f61c8b-a7d3-4ba1-8f43-be441c5a4646"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "6",
+        "value": {
+          "type": "false"
+        }
+      },
+      "id": "5a271b39-bb50-48bc-8dde-184ce848fa46"
     }
   ],
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],
-  "playerSpriteSheetId": "edc0cc58-3761-44f2-9e49-dfdd8ee02c46"
+  "collisions": "0f143+002+0f11+003+0f!008+0f2+002+0f4+0010+0f4+0010+0f4+0010+0f3+0013+0f!004f+0f!0012+0f3+0010+0f5+00e+0f8+00a+0f5+"
 }

@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "1855c3b8-fd86-4522-be78-7596726dd440",
+  "name": "forest2",
+  "symbol": "bg_forest2",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "forest2.png",
+  "tileColors": "03168+"
+}

@@ -7,6 +7,36 @@
       "symbol": "var_silverkey"
     },
     {
+      "id": "1",
+      "name": "bandersnatcheye",
+      "symbol": "var_bandersnatcheye"
+    },
+    {
+      "id": "2",
+      "name": "talktobandersnatch",
+      "symbol": "var_talktobandersnatch"
+    },
+    {
+      "id": "3",
+      "name": "goldkey",
+      "symbol": "var_goldkey"
+    },
+    {
+      "id": "4",
+      "name": "talkingrose",
+      "symbol": "var_talkingrose"
+    },
+    {
+      "id": "5",
+      "name": "talktoguard",
+      "symbol": "var_talktoguard"
+    },
+    {
+      "id": "6",
+      "name": "completedrosemaze",
+      "symbol": "var_completedrosemaze"
+    },
+    {
       "id": "75d3f407-0df2-4378-a28a-384a6d713429__L0",
       "name": "silverkey",
       "symbol": "var_silverkey_0"

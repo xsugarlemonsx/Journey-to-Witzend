@@ -3,7 +3,7 @@
   "id": "784e036c-f550-4466-8652-ff64589a3d55",
   "_index": 36,
   "name": "title",
-  "backgroundId": "1e5f9d6a-bdbc-43e6-8c34-22f5bb5dea05",
+  "backgroundId": "2d79223f-3ead-447f-98c0-e5852514595e",
   "tilesetId": "",
   "width": 20,
   "height": 18,
@@ -33,11 +33,11 @@
         "sceneId": "a7674c84-69f3-433c-9da8-3592a2b4bded",
         "x": {
           "type": "number",
-          "value": 0
+          "value": 3
         },
         "y": {
           "type": "number",
-          "value": 0
+          "value": 22
         },
         "direction": "",
         "fadeSpeed": "2"

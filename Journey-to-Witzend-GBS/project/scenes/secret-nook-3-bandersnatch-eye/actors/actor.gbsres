@@ -15,7 +15,18 @@
   "collisionGroup": "",
   "prefabScriptOverrides": {},
   "symbol": "actor_3",
-  "script": [],
+  "script": [
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "1",
+        "value": {
+          "type": "true"
+        }
+      },
+      "id": "6fabd84d-d79a-4629-8809-a125cc243cda"
+    }
+  ],
   "startScript": [],
   "updateScript": [],
   "hit1Script": [],

@@ -1,31 +1,72 @@
 {
   "_resourceType": "trigger",
-  "id": "655f07e0-0072-4b2e-9bf6-44beaba9eb73",
+  "id": "4435ea90-a2a6-4f9a-b013-a84bc5761e2c",
   "name": "",
   "prefabId": "",
-  "x": 15,
-  "y": 16,
-  "symbol": "trigger_37",
+  "x": 14,
+  "y": 12,
+  "symbol": "trigger_10",
   "prefabScriptOverrides": {},
-  "width": 5,
-  "height": 1,
+  "width": 3,
+  "height": 2,
   "script": [
     {
-      "command": "EVENT_SWITCH_SCENE",
+      "command": "EVENT_IF",
       "args": {
-        "sceneId": "9b641a1a-6ebf-48cf-8ba9-befb1a92675d",
-        "x": {
-          "type": "number",
-          "value": 9
+        "condition": {
+          "type": "variable",
+          "value": "4"
         },
-        "y": {
-          "type": "number",
-          "value": 2
-        },
-        "direction": "",
-        "fadeSpeed": "2"
+        "__collapseElse": true
       },
-      "id": "81501a35-eb09-4d25-b922-e2852f0142b2"
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "0e103916-ded2-41cd-b168-58ca7587e4aa",
+              "x": {
+                "type": "number",
+                "value": 0
+              },
+              "y": {
+                "type": "number",
+                "value": 0
+              },
+              "direction": "",
+              "fadeSpeed": "2"
+            },
+            "id": "9c987a97-6781-44bc-a465-cc2e00bf0076"
+          }
+        ],
+        "false": []
+      },
+      "id": "7c080bf8-99c2-4a1f-8057-45cd482698b2"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "You need a rose."
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "431e199a-6c04-43fb-8e5d-b80f9cf34030"
     }
   ],
   "leaveScript": [],
