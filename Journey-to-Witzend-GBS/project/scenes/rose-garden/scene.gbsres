@@ -2,26 +2,27 @@
   "_resourceType": "scene",
   "id": "af2a404a-fe79-4cd5-ac9f-4a3cde5a371c",
   "_index": 2,
-  "name": "rose-garden",
-  "backgroundId": "1e5f9d6a-bdbc-43e6-8c34-22f5bb5dea05",
-  "tilesetId": "",
-  "width": 20,
-  "height": 18,
   "type": "TOPDOWN",
-  "paletteIds": [
-    "",
-    null,
-    null,
-    ""
-  ],
-  "spritePaletteIds": [],
-  "collisions": "",
-  "autoFadeSpeed": 1,
+  "name": "rose-garden",
   "symbol": "scene_3",
   "x": 352,
   "y": 30,
+  "width": 20,
+  "height": 18,
+  "backgroundId": "1e5f9d6a-bdbc-43e6-8c34-22f5bb5dea05",
+  "tilesetId": "",
+  "paletteIds": [
+    "",
+    "",
+    "",
+    ""
+  ],
+  "spritePaletteIds": [],
+  "autoFadeSpeed": 1,
   "script": [],
   "playerHit1Script": [],
   "playerHit2Script": [],
-  "playerHit3Script": []
+  "playerHit3Script": [],
+  "collisions": "",
+  "playerSpriteSheetId": "532eda68-2964-478a-8d5b-bc239ee35638"
 }

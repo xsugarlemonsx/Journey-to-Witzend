@@ -2,28 +2,28 @@
   "_resourceType": "scene",
   "id": "a7674c84-69f3-433c-9da8-3592a2b4bded",
   "_index": 0,
-  "name": "spawn-bottom-of-the-rabbit-hole",
-  "backgroundId": "e884eb24-fd24-4d46-8051-80b82a02d5fd",
-  "tilesetId": "",
-  "width": 20,
-  "height": 30,
   "type": "TOPDOWN",
-  "paletteIds": [
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    "default-ui"
-  ],
-  "spritePaletteIds": [],
-  "collisions": "0f143+002+0f11+003+0f!008+0f2+002+0f4+0010+0f4+0010+0f4+0010+0f3+0013+0f!004f+0f!0012+0f3+0010+0f5+00e+0f8+00a+0f5+",
-  "autoFadeSpeed": 1,
+  "name": "spawn-bottom-of-the-rabbit-hole",
   "symbol": "scene_1",
   "x": 112,
   "y": 152,
+  "width": 20,
+  "height": 30,
+  "backgroundId": "e884eb24-fd24-4d46-8051-80b82a02d5fd",
+  "tilesetId": "",
+  "paletteIds": [
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "default-ui"
+  ],
+  "spritePaletteIds": [],
+  "autoFadeSpeed": 1,
+  "playerSpriteSheetId": "532eda68-2964-478a-8d5b-bc239ee35638",
   "script": [
     {
       "command": "EVENT_SET_VALUE",
@@ -99,5 +99,5 @@
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],
-  "playerSpriteSheetId": "532eda68-2964-478a-8d5b-bc239ee35638"
+  "collisions": "0f143+002+0f11+003+0f!008+0f2+002+0f4+0010+0f4+0010+0f4+0010+0f3+0013+0f!004f+0f!0012+0f3+0010+0f5+00e+0f8+00a+0f5+"
 }

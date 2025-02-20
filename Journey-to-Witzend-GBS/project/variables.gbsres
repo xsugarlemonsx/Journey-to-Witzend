@@ -7,11 +7,6 @@
       "symbol": "var_silverkey"
     },
     {
-      "id": "75d3f407-0df2-4378-a28a-384a6d713429__L0",
-      "name": "silverkey",
-      "symbol": "var_silverkey_0"
-    },
-    {
       "id": "1",
       "name": "bandersnatcheye",
       "symbol": "var_bandersnatcheye"
@@ -40,6 +35,11 @@
       "id": "6",
       "name": "completedrosemaze",
       "symbol": "var_completedrosemaze"
+    },
+    {
+      "id": "75d3f407-0df2-4378-a28a-384a6d713429__L0",
+      "name": "silverkey",
+      "symbol": "var_silverkey_0"
     }
   ]
 }
