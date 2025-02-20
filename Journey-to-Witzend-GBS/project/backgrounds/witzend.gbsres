@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "9c821776-22db-4e2a-b3ac-bda1fc296531",
+  "name": "witzend",
+  "symbol": "bg_witzend",
+  "width": 60,
+  "height": 60,
+  "imageWidth": 480,
+  "imageHeight": 480,
+  "filename": "witzend.png",
+  "tileColors": ""
+}
