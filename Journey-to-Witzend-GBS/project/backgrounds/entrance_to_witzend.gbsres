@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "b00e94db-fc47-4a74-8995-a0d06440931c",
+  "name": "entrance_to_witzend",
+  "symbol": "bg_entrance_to_witzend",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "entrance_to_witzend.png",
+  "tileColors": ""
+}
