@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "03a6e9bf-96eb-4cbe-a066-d8ce9a8ae4ce",
+  "name": "red_castle_throne_room",
+  "symbol": "bg_red_castle_throne_room",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "red_castle_throne_room.png",
+  "tileColors": ""
+}

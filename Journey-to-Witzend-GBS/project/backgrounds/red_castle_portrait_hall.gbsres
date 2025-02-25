@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "39ceb570-adc5-4793-9cc0-da843daedd92",
+  "name": "red_castle_portrait_hall",
+  "symbol": "bg_red_castle_portrait_hall",
+  "width": 20,
+  "height": 30,
+  "imageWidth": 160,
+  "imageHeight": 240,
+  "filename": "red_castle_portrait_hall.png",
+  "tileColors": ""
+}

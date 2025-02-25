@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "68493fa7-a230-492c-80a9-f5f47d9eb663",
+  "name": "Red_castle_dining_hall",
+  "symbol": "bg_red_castle_dining_hall",
+  "width": 20,
+  "height": 30,
+  "imageWidth": 160,
+  "imageHeight": 240,
+  "filename": "Red_castle_dining_hall.png",
+  "tileColors": ""
+}
