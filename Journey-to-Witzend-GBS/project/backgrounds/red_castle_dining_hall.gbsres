@@ -8,5 +8,6 @@
   "imageWidth": 160,
   "imageHeight": 240,
   "filename": "Red_castle_dining_hall.png",
-  "tileColors": ""
+  "tileColors": "",
+  "autoColor": false
 }

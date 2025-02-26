@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "7c64d631-1050-44d4-966d-b01eb204afa3",
+  "name": "house_of_cards",
+  "symbol": "bg_house_of_cards",
+  "width": 44,
+  "height": 18,
+  "imageWidth": 352,
+  "imageHeight": 144,
+  "filename": "house_of_cards.png",
+  "tileColors": ""
+}

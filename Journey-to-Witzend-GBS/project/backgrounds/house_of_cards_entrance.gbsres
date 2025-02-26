@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "ab8e4338-7a27-48ea-a87b-05e9c2ecf9e8",
+  "name": "house_of_cards_entrance",
+  "symbol": "bg_house_of_cards_entrance",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "house_of_cards_entrance.png",
+  "tileColors": "",
+  "autoColor": false
+}

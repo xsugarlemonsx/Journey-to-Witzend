@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "82759d3d-45f0-413d-89d6-75f94cb91781",
+  "name": "house_of_cards_exit",
+  "symbol": "bg_house_of_cards_exit",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "house_of_cards_exit.png",
+  "tileColors": "",
+  "autoColor": false
+}
