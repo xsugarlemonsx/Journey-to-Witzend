@@ -8,5 +8,6 @@
   "imageWidth": 352,
   "imageHeight": 144,
   "filename": "house_of_cards.png",
-  "tileColors": ""
+  "tileColors": "",
+  "autoColor": false
 }
