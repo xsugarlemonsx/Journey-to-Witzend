@@ -8,5 +8,6 @@
   "imageWidth": 192,
   "imageHeight": 192,
   "filename": "abandonedhouseentrancearea.png",
-  "tileColors": ""
+  "tileColors": "",
+  "autoColor": false
 }
