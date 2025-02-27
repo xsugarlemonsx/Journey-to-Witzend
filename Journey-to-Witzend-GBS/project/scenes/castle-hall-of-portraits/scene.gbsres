@@ -1,7 +1,7 @@
 {
   "_resourceType": "scene",
   "id": "bf66d570-a161-46fa-b984-7526edd75cba",
-  "_index": 21,
+  "_index": 20,
   "name": "castle-hall-of-portraits",
   "backgroundId": "39ceb570-adc5-4793-9cc0-da843daedd92",
   "tilesetId": "",
@@ -10,7 +10,7 @@
   "type": "TOPDOWN",
   "paletteIds": [],
   "spritePaletteIds": [],
-  "collisions": "",
+  "collisions": "0f1c+002+0f12+003+0f10+004+0f10+004+0f6+00!0f9+004+0f11+003+0f10+005+0fe+006+0fe+007+0f5+00!0f7+007+0fc+009+0fb+009+0fb+009+0fa+00a+0fa+00b+0f9+00b+0f8+00d+0f7+00d+0f6+00e+0f6+00f+0f5+00f+0f5+00c+0f8+00c+0f7+00d+0f7+00d+0f8+00c+0f8+00e+0f6+0011+0f3+0011+0f!",
   "autoFadeSpeed": 1,
   "symbol": "scene_22",
   "x": 1896,

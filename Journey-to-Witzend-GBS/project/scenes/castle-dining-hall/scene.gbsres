@@ -1,7 +1,7 @@
 {
   "_resourceType": "scene",
   "id": "7bc605e5-a9fe-43df-91aa-aff496529747",
-  "_index": 20,
+  "_index": 19,
   "name": "castle-dining-hall",
   "backgroundId": "68493fa7-a230-492c-80a9-f5f47d9eb663",
   "tilesetId": "",
@@ -10,7 +10,7 @@
   "type": "TOPDOWN",
   "paletteIds": [],
   "spritePaletteIds": [],
-  "collisions": "",
+  "collisions": "0f30+004+0ff+005+0ff+005+0f10+004+0ff+006+0fe+006+0fe+002+0f2+002+0fd+002+0f3+002+0fc+003+0f4+002+0fb+003+0f4+003+0f9+003+0f5+003+0f8+004+0f6+003+0f7+004+0f6+003+0f6+004+0f7+004+0f4+005+0f7+005+0f2+006+0f8+005+0f!006+0f8+005+0f!005+0f9+005+0f!005+0f9+005+0f!005+0fa+004+0f!005+0fa+004+0f!004+0fb+004+0f!004+0f2+00d+0f!0013+0f!0013+0f!0013+0f!0013+0f!005+0ff+",
   "autoFadeSpeed": 1,
   "symbol": "scene_21",
   "x": 1896,
