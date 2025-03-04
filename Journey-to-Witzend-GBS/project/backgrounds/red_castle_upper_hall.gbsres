@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "47d89bbe-d9c0-443c-a337-1419fdcf544e",
+  "name": "red_castle_upper_hall",
+  "symbol": "bg_red_castle_upper_hall",
+  "width": 20,
+  "height": 24,
+  "imageWidth": 160,
+  "imageHeight": 192,
+  "filename": "red_castle_upper_hall.png",
+  "tileColors": ""
+}

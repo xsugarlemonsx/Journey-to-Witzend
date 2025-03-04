@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "22577f29-f97e-4ebf-a421-64f82a1d3e80",
+  "name": "red_castle_stairwells",
+  "symbol": "bg_red_castle_stairwells",
+  "width": 28,
+  "height": 18,
+  "imageWidth": 224,
+  "imageHeight": 144,
+  "filename": "red_castle_stairwells.png",
+  "tileColors": ""
+}

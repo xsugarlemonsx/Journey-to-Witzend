@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "6a0cda52-1ecf-415d-9e3f-f3374c4d3742",
+  "name": "kingdom2",
+  "symbol": "bg_kingdom2",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "kingdom2.png",
+  "tileColors": "",
+  "autoColor": false
+}

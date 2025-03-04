@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "5365e139-aae3-438b-9fa0-8e2e00aec4e1",
+  "name": "cheshirenook",
+  "symbol": "bg_cheshirenook",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "cheshirenook.png",
+  "tileColors": "",
+  "autoColor": false
+}

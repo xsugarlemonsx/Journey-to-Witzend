@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "85c8d9ce-01f1-46cb-ae30-c46280b4bb98",
+  "name": "entering",
+  "symbol": "bg_entering",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "entering.png",
+  "tileColors": "",
+  "autoColor": false
+}
