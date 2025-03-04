@@ -1,0 +1,55 @@
+{
+  "_resourceType": "trigger",
+  "id": "1bfeb633-97c4-4f9c-90ec-c634db478397",
+  "name": "",
+  "prefabId": "",
+  "x": 14,
+  "y": 12,
+  "symbol": "trigger_61",
+  "prefabScriptOverrides": {},
+  "width": 3,
+  "height": 2,
+  "script": [
+    {
+      "command": "EVENT_ACTOR_EMOTE",
+      "args": {
+        "actorId": "$self$",
+        "emoteId": "70a4ce25-1fe4-4ab1-aee9-21255e70fb76",
+        "__collapse": true
+      },
+      "id": "dc13e5ac-8a26-471d-b5d5-71cdad5bf954"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "There's a note\non the ground.",
+          "\"Look beyond what\nis expected...",
+          "... only then will\nyou return home.\"",
+          "...",
+          "There's a smudged,\ninky paw print. "
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30,
+        "__collapse": true
+      },
+      "id": "f58bcfd5-8451-487e-8f51-bbf43e5a61b1"
+    }
+  ],
+  "leaveScript": [],
+  "_index": 1
+}
