@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "531c0012-9f45-4b63-9d77-267e64504eb8",
+  "name": "rose garden tbh",
+  "symbol": "bg_rose_garden_tbh",
+  "width": 23,
+  "height": 21,
+  "imageWidth": 184,
+  "imageHeight": 168,
+  "filename": "rose garden tbh.png",
+  "tileColors": "051e3+",
+  "autoColor": false
+}

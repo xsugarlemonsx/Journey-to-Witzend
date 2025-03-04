@@ -7,9 +7,9 @@
   "symbol": "scene_3",
   "x": 352,
   "y": 30,
-  "width": 20,
-  "height": 18,
-  "backgroundId": "1e5f9d6a-bdbc-43e6-8c34-22f5bb5dea05",
+  "width": 23,
+  "height": 21,
+  "backgroundId": "531c0012-9f45-4b63-9d77-267e64504eb8",
   "tilesetId": "",
   "paletteIds": [
     "",
@@ -23,6 +23,6 @@
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],
-  "collisions": "",
+  "collisions": "001e3+",
   "playerSpriteSheetId": "532eda68-2964-478a-8d5b-bc239ee35638"
 }

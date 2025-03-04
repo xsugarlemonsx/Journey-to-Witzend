@@ -8,5 +8,6 @@
   "imageWidth": 224,
   "imageHeight": 144,
   "filename": "red_castle_stairwells.png",
-  "tileColors": ""
+  "tileColors": "",
+  "autoColor": false
 }

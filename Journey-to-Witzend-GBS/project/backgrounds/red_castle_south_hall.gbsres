@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "f96647f6-9aa7-4bc0-ae68-3b4b41996aa6",
+  "name": "red castle south hall",
+  "symbol": "bg_red_castle_south_hall",
+  "width": 20,
+  "height": 24,
+  "imageWidth": 160,
+  "imageHeight": 192,
+  "filename": "red castle south hall.png",
+  "tileColors": "",
+  "autoColor": false
+}

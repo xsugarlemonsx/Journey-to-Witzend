@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "2e741085-00b8-4121-986b-5684f064c25c",
+  "name": "red castle throne room fixed",
+  "symbol": "bg_red_castle_throne_room_f",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "red castle throne room fixed.png",
+  "tileColors": "",
+  "autoColor": false
+}
