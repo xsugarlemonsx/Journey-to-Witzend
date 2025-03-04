@@ -20,7 +20,7 @@
         },
         "y": {
           "type": "number",
-          "value": 1
+          "value": 2
         },
         "direction": "",
         "fadeSpeed": "2"
@@ -28,6 +28,17 @@
       "id": "cab43f42-6b50-4e63-96ee-796e7c57f18d"
     }
   ],
-  "leaveScript": [],
+  "leaveScript": [
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "9",
+        "value": {
+          "type": "true"
+        }
+      },
+      "id": "5c9960b1-fdfa-47dd-adab-f05a16cd8a83"
+    }
+  ],
   "_index": 0
 }

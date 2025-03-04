@@ -47,7 +47,7 @@
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "You need the key."
+          "You need the gold\nkey."
         ],
         "__section": "text",
         "avatarId": "",

@@ -3,8 +3,8 @@
   "id": "edc26c21-02ec-4d93-bdd6-62bdaad5c8b1",
   "name": "",
   "prefabId": "",
-  "x": 5,
-  "y": 8,
+  "x": 6,
+  "y": 9,
   "symbol": "trigger_74",
   "prefabScriptOverrides": {},
   "width": 3,
@@ -44,6 +44,13 @@
         "closeDelayFrames": 30
       },
       "id": "737e1bb0-f187-4e75-a5a1-caf182b67163"
+    },
+    {
+      "command": "EVENT_ACTOR_HIDE",
+      "args": {
+        "actorId": "75d3f407-0df2-4378-a28a-384a6d713429"
+      },
+      "id": "be355401-5ab4-421b-97b3-2bca1e52c710"
     }
   ],
   "leaveScript": [],

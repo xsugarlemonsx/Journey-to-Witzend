@@ -15,7 +15,15 @@
   "symbol": "scene_12",
   "x": 600,
   "y": 48,
-  "script": [],
+  "script": [
+    {
+      "command": "EVENT_MUSIC_PLAY",
+      "args": {
+        "musicId": "f82e07a1-dc4c-46dd-8559-64957037fc6d"
+      },
+      "id": "667e4fda-7ab6-4d74-94ed-3547c1bff604"
+    }
+  ],
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],

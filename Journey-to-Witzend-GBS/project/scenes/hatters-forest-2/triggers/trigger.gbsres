@@ -9,7 +9,41 @@
   "prefabScriptOverrides": {},
   "width": 2,
   "height": 2,
-  "script": [],
+  "script": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "variable",
+          "value": "1"
+        },
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "effb7877-5108-4400-9cbc-fe07728fa704",
+              "x": {
+                "type": "number",
+                "value": 13
+              },
+              "y": {
+                "type": "number",
+                "value": 17
+              },
+              "direction": "",
+              "fadeSpeed": "2"
+            },
+            "id": "eb55ce9d-b3f3-4f37-8683-7c83a259bbc5"
+          }
+        ],
+        "false": []
+      },
+      "id": "e70b8e7f-1101-4df1-9c06-2d2f1fc6b125"
+    }
+  ],
   "leaveScript": [],
   "_index": 0
 }

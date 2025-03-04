@@ -9,7 +9,152 @@
   "prefabScriptOverrides": {},
   "width": 6,
   "height": 2,
-  "script": [],
+  "script": [
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "4",
+        "value": {
+          "type": "true"
+        }
+      },
+      "id": "ebc5345c-b55a-4d05-8085-66bec241a274"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "You found me!",
+          "* Talking rose \nadded. "
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "a141497c-4745-4711-8e48-7d60a9a11495"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "variable",
+          "value": "9"
+        },
+        "__collapseElse": false,
+        "__collapse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "...",
+                "There's a secret\npassageway here!",
+                "Enter?"
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__collapse": true
+            },
+            "id": "03c8c1fa-1788-4b71-85b0-f99dba1c1422"
+          },
+          {
+            "command": "EVENT_CHOICE",
+            "args": {
+              "variable": "8",
+              "trueText": "Yes",
+              "falseText": "No",
+              "__collapse": true
+            },
+            "id": "4fb2ff21-4523-4b73-9965-f3425b9ee5f0"
+          },
+          {
+            "command": "EVENT_CHOICE",
+            "args": {
+              "variable": "8",
+              "trueText": "Yes",
+              "falseText": "No",
+              "__collapse": true
+            },
+            "id": "5500c2cb-8116-408f-9812-574443821cb6"
+          }
+        ],
+        "false": []
+      },
+      "id": "39d8a458-62b9-4bb3-b7b4-38f82b7e82f8"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "variable",
+          "value": "8"
+        },
+        "__collapseElse": true,
+        "__collapse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "7cb64b0f-ff6d-4605-b7dd-06d77c094d77",
+              "x": {
+                "type": "number",
+                "value": 3
+              },
+              "y": {
+                "type": "number",
+                "value": 9
+              },
+              "direction": "",
+              "fadeSpeed": "2",
+              "__collapse": true
+            },
+            "id": "2b49026c-4cbc-47c2-aa2a-08c92295bda4"
+          }
+        ],
+        "false": []
+      },
+      "id": "cb575900-346f-467e-8beb-4bc7d4a78387"
+    },
+    {
+      "command": "EVENT_ACTOR_HIDE",
+      "args": {
+        "actorId": "e4faa811-17b2-4f91-b6c6-310ecaf3708c",
+        "__collapse": true
+      },
+      "id": "d393e71b-b176-4a9c-87ef-6ab58d58f279"
+    }
+  ],
   "leaveScript": [],
   "_index": 1
 }

@@ -1,0 +1,42 @@
+{
+  "_resourceType": "trigger",
+  "id": "d6c790b7-82b8-4a3c-b86f-9cf653c58c44",
+  "name": "",
+  "prefabId": "",
+  "x": 8,
+  "y": 5,
+  "symbol": "trigger_66",
+  "prefabScriptOverrides": {},
+  "width": 4,
+  "height": 3,
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Hello!",
+          "Great work finding\nmy secret area!"
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "1309d1a4-8a93-4081-824f-c6334e0bfc1e"
+    }
+  ],
+  "leaveScript": [],
+  "_index": 2
+}

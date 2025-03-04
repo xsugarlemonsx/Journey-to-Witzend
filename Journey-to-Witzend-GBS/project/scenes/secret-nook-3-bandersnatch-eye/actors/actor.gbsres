@@ -22,7 +22,8 @@
         "variable": "1",
         "value": {
           "type": "true"
-        }
+        },
+        "__collapse": true
       },
       "id": "6fabd84d-d79a-4629-8809-a125cc243cda"
     }

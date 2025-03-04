@@ -1,0 +1,9 @@
+{
+  "_resourceType": "music",
+  "id": "2b934970-d1e5-410d-be2e-81bea3549c02",
+  "name": "townarea",
+  "symbol": "song_townarea",
+  "filename": "townarea.uge",
+  "settings": {},
+  "type": "uge"
+}

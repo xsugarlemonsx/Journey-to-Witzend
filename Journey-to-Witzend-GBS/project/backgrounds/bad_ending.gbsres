@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "8d56a160-d02d-4364-b956-d94ceddda61c",
+  "name": "bad_ending",
+  "symbol": "bg_bad_ending",
+  "width": 26,
+  "height": 18,
+  "imageWidth": 208,
+  "imageHeight": 144,
+  "filename": "bad_ending.png",
+  "tileColors": "071d4+"
+}

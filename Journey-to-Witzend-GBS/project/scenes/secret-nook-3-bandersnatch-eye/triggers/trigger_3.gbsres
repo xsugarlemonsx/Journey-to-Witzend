@@ -44,6 +44,14 @@
         "closeDelayFrames": 30
       },
       "id": "3f643355-2744-4b8d-a86f-a0c53577b384"
+    },
+    {
+      "command": "EVENT_ACTOR_HIDE",
+      "args": {
+        "actorId": "d68218d0-2aed-46a6-a471-723e1d510174",
+        "__collapse": true
+      },
+      "id": "bd59d514-0ec9-4747-9926-fd2d1aa10ef5"
     }
   ],
   "leaveScript": [],

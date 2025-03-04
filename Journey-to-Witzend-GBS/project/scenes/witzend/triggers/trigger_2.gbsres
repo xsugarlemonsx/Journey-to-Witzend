@@ -3,8 +3,8 @@
   "id": "eea093e8-0b81-4604-be2a-b858e3186b1d",
   "name": "",
   "prefabId": "",
-  "x": 25,
-  "y": 24,
+  "x": 29,
+  "y": 34,
   "symbol": "trigger_78",
   "prefabScriptOverrides": {},
   "width": 2,
@@ -15,7 +15,7 @@
       "args": {
         "text": [
           "...",
-          "Is this your \nreality?"
+          "Is this the way\nhome?"
         ],
         "__section": "text",
         "avatarId": "",
@@ -35,6 +35,39 @@
         "closeDelayFrames": 30
       },
       "id": "42f9a9cd-1fa6-41c0-bc02-7ac50a1939d1"
+    },
+    {
+      "command": "EVENT_ACTOR_EMOTE",
+      "args": {
+        "actorId": "$self$",
+        "emoteId": "d508e529-57eb-458b-9782-66f318243c32"
+      },
+      "id": "624c01c3-c9e9-449c-8d53-096d0cf958b7"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Go up the stairs?"
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "617a83f5-16a6-493d-961c-bb418d142749"
     },
     {
       "command": "EVENT_CHOICE",

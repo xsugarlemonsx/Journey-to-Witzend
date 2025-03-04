@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "ad68ac05-e946-4acd-8fc1-c4d7b942b6dd",
+  "name": "ending2",
+  "symbol": "bg_ending2",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "ending2.png",
+  "tileColors": "07168+"
+}

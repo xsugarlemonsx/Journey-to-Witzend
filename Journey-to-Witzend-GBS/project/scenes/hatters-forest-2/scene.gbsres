@@ -23,10 +23,18 @@
     "default-bg-4"
   ],
   "autoFadeSpeed": 1,
-  "script": [],
+  "script": [
+    {
+      "command": "EVENT_MUSIC_PLAY",
+      "args": {
+        "musicId": "bdc2df14-e664-4595-89bd-d31477931d63"
+      },
+      "id": "3bd53ff7-7fd0-405b-8e5b-b19c7573d05d"
+    }
+  ],
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],
-  "collisions": "0f!0012+0f2+0012+0f2+0012+0f2+0012+0f2+0012+0f2+0012+0f2+0012+0f2+0012+0f2+0012+0f!0013+0f!0013+0f!0013+0f!0013+0f!0013+0f2+0012+0f2+0012+0f2+0012+0f2+0012+0f!",
+  "collisions": "0f!0012+0f2+0012+0f3+0011+0f3+0011+0f2+0012+0f2+0012+0f2+00b+0f2+005+0f2+00b+0f2+005+0f2+00b+0f2+005+0f!00c+0f2+005+0f!00c+0f2+005+0f!00c+0f2+005+0f!006+0f2+00b+0f!006+0f2+00b+0f2+005+0f2+00b+0f2+005+0f2+00b+0f2+0012+0f2+0012+0f!",
   "playerSpriteSheetId": "532eda68-2964-478a-8d5b-bc239ee35638"
 }

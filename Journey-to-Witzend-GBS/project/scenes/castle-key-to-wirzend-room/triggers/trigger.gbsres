@@ -4,7 +4,7 @@
   "name": "",
   "prefabId": "",
   "x": 8,
-  "y": 4,
+  "y": 5,
   "symbol": "trigger_7",
   "prefabScriptOverrides": {},
   "width": 4,
@@ -19,6 +19,31 @@
         }
       },
       "id": "c541b8d7-0f8e-4b20-a69e-df73008ebcc5"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "* Gold key added."
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "82b806c6-fcf3-48df-877f-02b6962f37fb"
     }
   ],
   "leaveScript": [],

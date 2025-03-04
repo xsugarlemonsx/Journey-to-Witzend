@@ -3,46 +3,13 @@
   "id": "8ad892f6-1555-4161-a733-e78557cdc101",
   "name": "",
   "prefabId": "",
-  "x": 1,
-  "y": 8,
+  "x": 2,
+  "y": 9,
   "symbol": "trigger_75",
   "prefabScriptOverrides": {},
   "width": 2,
   "height": 2,
   "script": [
-    {
-      "command": "EVENT_SET_VALUE",
-      "args": {
-        "variable": "2",
-        "value": {
-          "type": "true"
-        }
-      },
-      "id": "90b1a2a3-d42a-432f-ae76-e6c466102d44"
-    },
-    {
-      "command": "EVENT_TEXT",
-      "args": {
-        "text": "",
-        "__section": "text",
-        "avatarId": "",
-        "minHeight": 4,
-        "maxHeight": 7,
-        "textX": 1,
-        "textY": 1,
-        "textHeight": 5,
-        "position": "bottom",
-        "clearPrevious": true,
-        "showFrame": "true",
-        "speedIn": -1,
-        "speedOut": -1,
-        "closeWhen": "key",
-        "closeButton": "a",
-        "closeDelayTime": 0.5,
-        "closeDelayFrames": 30
-      },
-      "id": "b4feef7c-5c83-4247-9690-36a222a95097"
-    },
     {
       "command": "EVENT_IF",
       "args": {
@@ -50,7 +17,8 @@
           "type": "variable",
           "value": "1"
         },
-        "__collapseElse": false
+        "__collapseElse": false,
+        "__collapse": false
       },
       "children": {
         "true": [
@@ -66,7 +34,8 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "You found it!"
+                "You found it!",
+                "Thank you."
               ],
               "__section": "text",
               "avatarId": "",
@@ -126,8 +95,8 @@
           "type": "variable",
           "value": "2"
         },
-        "__collapseElse": true,
-        "__collapse": true
+        "__collapseElse": false,
+        "__collapse": false
       },
       "children": {
         "true": [
@@ -152,7 +121,8 @@
               "closeWhen": "key",
               "closeButton": "a",
               "closeDelayTime": 0.5,
-              "closeDelayFrames": 30
+              "closeDelayFrames": 30,
+              "__collapse": true
             },
             "id": "3be710f9-9d26-46e1-bcc6-031a2903a3a4"
           }
@@ -180,7 +150,8 @@
               "closeWhen": "key",
               "closeButton": "a",
               "closeDelayTime": 0.5,
-              "closeDelayFrames": 30
+              "closeDelayFrames": 30,
+              "__collapse": true
             },
             "id": "7641a1e4-e4e5-41b2-8e45-a13ae4a56468"
           }
@@ -189,6 +160,17 @@
       "id": "62d6ce95-ea2a-47cd-8dc9-343ab20def7e"
     }
   ],
-  "leaveScript": [],
+  "leaveScript": [
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "2",
+        "value": {
+          "type": "true"
+        }
+      },
+      "id": "a00c24f0-f23b-4fdd-a144-4baa909db50a"
+    }
+  ],
   "_index": 1
 }

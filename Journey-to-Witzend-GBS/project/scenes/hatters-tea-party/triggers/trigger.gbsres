@@ -1,31 +1,115 @@
 {
   "_resourceType": "trigger",
-  "id": "1ab4c56b-594c-4cd9-bb91-4e23b713246c",
+  "id": "6a817a93-8f0b-485a-92ef-7356164ab284",
   "name": "",
   "prefabId": "",
-  "x": 0,
-  "y": 6,
-  "symbol": "trigger_1",
+  "x": 7,
+  "y": 0,
+  "symbol": "trigger_2",
   "prefabScriptOverrides": {},
-  "width": 2,
-  "height": 5,
+  "width": 6,
+  "height": 1,
   "script": [
     {
-      "command": "EVENT_SWITCH_SCENE",
+      "command": "EVENT_IF",
       "args": {
-        "sceneId": "a7674c84-69f3-433c-9da8-3592a2b4bded",
-        "x": {
-          "type": "number",
-          "value": 15
+        "condition": {
+          "type": "variable",
+          "value": "0"
         },
-        "y": {
-          "type": "number",
-          "value": 20
-        },
-        "direction": "",
-        "fadeSpeed": "2"
+        "__collapseElse": false
       },
-      "id": "f6b0a41d-3054-47a4-9f24-7c3390a5e2b2"
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "af2a404a-fe79-4cd5-ac9f-4a3cde5a371c",
+              "x": {
+                "type": "number",
+                "value": 10
+              },
+              "y": {
+                "type": "number",
+                "value": 17
+              },
+              "direction": "",
+              "fadeSpeed": "2"
+            },
+            "id": "75fa648c-8037-4728-8523-28125c678fb8"
+          }
+        ],
+        "false": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "The gate is locked."
+              ],
+              "__section": "behavior",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "any",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__collapse": true
+            },
+            "id": "efd080a8-8699-40e2-91d8-10c48e102d9b"
+          },
+          {
+            "command": "EVENT_IF",
+            "args": {
+              "condition": {
+                "type": "variable",
+                "value": "5"
+              },
+              "__collapseElse": true
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "Maybe there is a \nrose in here."
+                    ],
+                    "__section": "text",
+                    "avatarId": "",
+                    "minHeight": 4,
+                    "maxHeight": 7,
+                    "textX": 1,
+                    "textY": 1,
+                    "textHeight": 5,
+                    "position": "bottom",
+                    "clearPrevious": true,
+                    "showFrame": "true",
+                    "speedIn": -1,
+                    "speedOut": -1,
+                    "closeWhen": "key",
+                    "closeButton": "a",
+                    "closeDelayTime": 0.5,
+                    "closeDelayFrames": 30
+                  },
+                  "id": "59093044-85d2-4bca-a403-a4a9e49abfb9"
+                }
+              ],
+              "false": []
+            },
+            "id": "6777ada8-9947-45cc-956d-508f5f232b9f"
+          }
+        ]
+      },
+      "id": "9df02cb5-e74e-4006-827f-b72e59fb0f99"
     }
   ],
   "leaveScript": [],

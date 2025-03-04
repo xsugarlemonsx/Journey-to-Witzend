@@ -10,12 +10,19 @@
   "type": "LOGO",
   "paletteIds": [],
   "spritePaletteIds": [],
-  "collisions": "",
+  "collisions": "00168+",
   "autoFadeSpeed": 1,
   "symbol": "scene_37",
   "x": 152,
   "y": 864,
   "script": [
+    {
+      "command": "EVENT_MUSIC_PLAY",
+      "args": {
+        "musicId": "e30fc1c8-b7ea-4cac-bbe0-1da135a29afb"
+      },
+      "id": "43bd02ef-134d-48a5-9b65-b1053d53dc24"
+    },
     {
       "command": "EVENT_AWAIT_INPUT",
       "args": {

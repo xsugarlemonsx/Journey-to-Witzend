@@ -25,9 +25,56 @@
     "default-ui",
     "default-ui"
   ],
-  "autoFadeSpeed": 1,
+  "autoFadeSpeed": 4,
   "playerSpriteSheetId": "532eda68-2964-478a-8d5b-bc239ee35638",
   "script": [
+    {
+      "command": "EVENT_MUSIC_STOP",
+      "args": {},
+      "id": "6652bfa8-f3e5-40ec-9506-c4f83928fdb9"
+    },
+    {
+      "command": "EVENT_ACTOR_EMOTE",
+      "args": {
+        "actorId": "$self$",
+        "emoteId": "70a4ce25-1fe4-4ab1-aee9-21255e70fb76"
+      },
+      "id": "a586fa5e-40e7-4990-acc2-330966df2d67"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "...",
+          "What is this\nplace?",
+          "I have to get\nhome. "
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "96b48c80-d784-47fa-9688-2dea991d62c0"
+    },
+    {
+      "command": "EVENT_MUSIC_PLAY",
+      "args": {
+        "musicId": "8fa82a73-6758-4f95-84b8-de85fcf2d5fd"
+      },
+      "id": "22461df9-441c-478e-a07c-a1f479d7e80c"
+    },
     {
       "command": "EVENT_SET_VALUE",
       "args": {
@@ -102,5 +149,5 @@
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],
-  "collisions": "0f143+002+0f11+003+0f!008+0f2+002+0f4+0010+0f4+0010+0f4+0010+0f3+0013+0f!0035+0f!0019+0f!0012+0f3+0010+0f5+00e+0f8+00a+0f5+"
+  "collisions": "0013b+0f4+00!0f10+002+0f!00!0f2+003+0f!004+0f!003+0f2+002+0f!00!0f2+00b+0f3+002+0f!00!0f2+0010+0f4+0011+0f2+0012+0f2+0012+0f2+0012+0f2+0012+0f2+0012+0f2+0012+0f2+0012+0f3+0010+0f16+"
 }

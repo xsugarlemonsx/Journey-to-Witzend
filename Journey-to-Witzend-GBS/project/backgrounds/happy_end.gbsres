@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "d666be4a-fbcf-4408-b6f3-7922ab798d3b",
+  "name": "happy_end",
+  "symbol": "bg_happy_end",
+  "width": 26,
+  "height": 18,
+  "imageWidth": 208,
+  "imageHeight": 144,
+  "filename": "happy_end.png",
+  "tileColors": "051d4+"
+}

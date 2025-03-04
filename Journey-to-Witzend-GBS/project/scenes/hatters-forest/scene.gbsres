@@ -10,12 +10,20 @@
   "type": "TOPDOWN",
   "paletteIds": [],
   "spritePaletteIds": [],
-  "collisions": "0f!0013+0f!0013+0f!0013+0f!0013+0f!0013+0f!0013+0f!0013+0f!0013+0f2+0012+0f2+0012+0f2+0010+0f4+0010+0f3+0011+0f3+0011+0f3+005+0f2+00a+0f3+005+0f2+00a+0f3+002+0f5+002+0f2+008+0f14+",
+  "collisions": "0f!0013+0f!0012+0f2+0012+0f2+0012+0f2+0012+0f2+0012+0f2+0013+0f!0013+0f2+0012+0f2+0012+0f2+0010+0f4+0010+0f3+0011+0f3+0011+0f3+005+0f2+00a+0f3+005+0f2+00a+0f3+002+0f5+002+0f2+008+0f14+",
   "autoFadeSpeed": 1,
   "symbol": "scene_5",
   "x": 344,
   "y": 656,
-  "script": [],
+  "script": [
+    {
+      "command": "EVENT_MUSIC_PLAY",
+      "args": {
+        "musicId": "bdc2df14-e664-4595-89bd-d31477931d63"
+      },
+      "id": "623875c2-bf8c-4c63-8263-d0eb57019a91"
+    }
+  ],
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],

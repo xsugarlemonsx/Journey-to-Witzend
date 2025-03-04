@@ -1,0 +1,119 @@
+{
+  "_resourceType": "trigger",
+  "id": "7713155c-56e0-439b-92c2-db778b44a95b",
+  "name": "",
+  "prefabId": "",
+  "x": 12,
+  "y": 8,
+  "symbol": "trigger_72",
+  "prefabScriptOverrides": {},
+  "width": 2,
+  "height": 2,
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Oh, hello!",
+          "Would you like \nsome tea?"
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "f8d5722b-a232-4cd5-91fb-758491570120"
+    },
+    {
+      "command": "EVENT_ACTOR_EMOTE",
+      "args": {
+        "actorId": "player",
+        "emoteId": "d508e529-57eb-458b-9782-66f318243c32",
+        "__collapse": true
+      },
+      "id": "46440539-e73e-4f03-b6eb-03f288b15516"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Oh, I see!",
+          "You've got to get\nhome, yes?",
+          "Hmmm....",
+          "Well, if I were \nyou...",
+          "I'd make my way\nover to Witzend.",
+          "That ought to\ntake you home!",
+          "Probably."
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "ec768563-842d-4083-91c1-01b03ffdcbb1"
+    },
+    {
+      "command": "EVENT_ACTOR_EMOTE",
+      "args": {
+        "actorId": "$self$",
+        "emoteId": "70a4ce25-1fe4-4ab1-aee9-21255e70fb76"
+      },
+      "id": "bb27cb3e-0604-4711-935c-7a5f3aca4cd1"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Oh, right!",
+          "To get there...",
+          "Head to the castle\nand get the key!",
+          "Gate's just east \nof the castle!",
+          "Off you go, then!\nTake some tea!"
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "30121d88-508f-4a08-887d-09ffadb3577c"
+    }
+  ],
+  "leaveScript": [],
+  "_index": 3
+}

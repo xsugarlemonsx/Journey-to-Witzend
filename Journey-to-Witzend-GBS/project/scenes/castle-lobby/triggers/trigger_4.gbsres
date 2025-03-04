@@ -1,0 +1,77 @@
+{
+  "_resourceType": "trigger",
+  "id": "6b0787fb-c97e-40de-8001-5ef5c8d855e1",
+  "name": "",
+  "prefabId": "",
+  "x": 8,
+  "y": 11,
+  "symbol": "trigger_79",
+  "prefabScriptOverrides": {},
+  "width": 4,
+  "height": 1,
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "There's a quote\nabove the crown..",
+          "\"Beware ye who\nenter this place..",
+          "a change in \nperspective...",
+          "awaits you.\""
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "ab45a490-1917-480c-8e32-40a61de76e7a"
+    },
+    {
+      "command": "EVENT_ACTOR_EMOTE",
+      "args": {
+        "actorId": "$self$",
+        "emoteId": "d508e529-57eb-458b-9782-66f318243c32"
+      },
+      "id": "264869e2-2d89-4dab-9963-f441358019f2"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Weird."
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "11dee389-4967-443e-893e-53c8676a1280"
+    }
+  ],
+  "leaveScript": [],
+  "_index": 3
+}
