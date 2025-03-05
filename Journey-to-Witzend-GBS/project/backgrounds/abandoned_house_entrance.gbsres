@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "3b6cfc03-1db2-4211-9d57-781445eaee7a",
+  "name": "abandoned_house_entrance",
+  "symbol": "bg_abandoned_house_entrance",
+  "width": 24,
+  "height": 24,
+  "imageWidth": 192,
+  "imageHeight": 192,
+  "filename": "abandoned_house_entrance.png",
+  "tileColors": ""
+}

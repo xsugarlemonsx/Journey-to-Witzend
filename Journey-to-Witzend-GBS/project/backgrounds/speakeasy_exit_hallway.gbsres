@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "8cad8410-8bf1-489f-b771-85261110eac5",
+  "name": "speakeasy_exit_hallway",
+  "symbol": "bg_speakeasy_exit_hallway",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "speakeasy_exit_hallway.png",
+  "tileColors": ""
+}

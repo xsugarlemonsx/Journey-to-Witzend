@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "215f56f6-8d1d-469b-8869-378068e75ace",
+  "name": "speakeasy",
+  "symbol": "bg_speakeasy",
+  "width": 50,
+  "height": 20,
+  "imageWidth": 400,
+  "imageHeight": 160,
+  "filename": "speakeasy.png",
+  "tileColors": ""
+}

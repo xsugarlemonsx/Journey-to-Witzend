@@ -8,5 +8,6 @@
   "imageWidth": 208,
   "imageHeight": 144,
   "filename": "bad_ending.png",
-  "tileColors": "071d4+"
+  "tileColors": "071d4+",
+  "autoColor": false
 }

@@ -8,5 +8,6 @@
   "imageWidth": 208,
   "imageHeight": 144,
   "filename": "happy_end.png",
-  "tileColors": "051d4+"
+  "tileColors": "051d4+",
+  "autoColor": false
 }

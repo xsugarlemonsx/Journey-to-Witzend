@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "3c896ee3-ab7e-4ed9-af94-b158f42b58ec",
+  "name": "speakeasy_entrance",
+  "symbol": "bg_speakeasy_entrance",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "speakeasy_entrance.png",
+  "tileColors": ""
+}
