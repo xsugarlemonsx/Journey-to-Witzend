@@ -17,6 +17,13 @@
   "y": 1080,
   "script": [
     {
+      "command": "EVENT_ACTOR_HIDE",
+      "args": {
+        "actorId": "$self$"
+      },
+      "id": "6b2aa583-ea59-4898-b7b4-4a1260f6f9b0"
+    },
+    {
       "command": "EVENT_MUSIC_PLAY",
       "args": {
         "musicId": "1960cfdc-4cb0-4489-8b7d-926aa93f106d"

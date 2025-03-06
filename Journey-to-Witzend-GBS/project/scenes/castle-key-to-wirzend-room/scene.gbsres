@@ -10,7 +10,7 @@
   "type": "TOPDOWN",
   "paletteIds": [],
   "spritePaletteIds": [
-    "default-bg-1"
+    "default-bg-5"
   ],
   "collisions": "0043+0f6+00e+0f!004+0f!00e+0f!004+0f!00e+0f!004+0f!00c+0f3+004+0f3+009+0f!00a+0f!007+0f!0012+0f!00d+0f!004+0f!00f+0f!002+0f2+0010+0f!00!0f!0012+0f2+0012+0f2+0012+0f2+0012+0f!00f+0f5+",
   "autoFadeSpeed": 1,

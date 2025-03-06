@@ -85,7 +85,7 @@
           "type": "variable",
           "value": "7"
         },
-        "__collapseElse": true
+        "__collapseElse": false
       },
       "children": {
         "true": [
@@ -107,7 +107,34 @@
             "id": "4fc9951b-81de-47d4-b1a4-755a9307a62c"
           }
         ],
-        "false": []
+        "false": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "Maybe home...",
+                "is somewhere else."
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "6b9dbb53-52a9-4a3b-9910-f24bb8361ccb"
+          }
+        ]
       },
       "id": "0a512ce8-0fbd-4a6e-a33b-47f6057cc817"
     }

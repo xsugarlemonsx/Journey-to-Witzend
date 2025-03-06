@@ -3,7 +3,7 @@
   "id": "56152935-4723-4f83-95e2-6264ce62a8b0",
   "_index": 36,
   "name": "Scene 37",
-  "backgroundId": "1e5f9d6a-bdbc-43e6-8c34-22f5bb5dea05",
+  "backgroundId": "e3b83ff6-6ae2-4d23-9fdc-264c8e1c8215",
   "tilesetId": "",
   "width": 20,
   "height": 18,
@@ -17,32 +17,43 @@
   "y": 1064,
   "script": [
     {
-      "command": "EVENT_TEXT",
+      "command": "EVENT_ACTOR_HIDE",
       "args": {
-        "text": [
-          "Congratulations!",
-          "You have found the\ntrue ending!",
-          "Thank you for \nplaying."
-        ],
-        "__section": "text",
-        "avatarId": "",
-        "minHeight": 4,
-        "maxHeight": 7,
-        "textX": 1,
-        "textY": 1,
-        "textHeight": 5,
-        "position": "bottom",
-        "clearPrevious": true,
-        "showFrame": "true",
-        "speedIn": -1,
-        "speedOut": -1,
-        "closeWhen": "key",
-        "closeButton": "a",
-        "closeDelayTime": 0.5,
-        "closeDelayFrames": 30,
-        "__collapse": true
+        "actorId": "$self$"
       },
-      "id": "ca5f8d63-85f9-4a4a-826a-1d41715a4728"
+      "id": "41154a8e-1d8f-4574-94e3-72fe3d5f9d47"
+    },
+    {
+      "command": "EVENT_MUSIC_PLAY",
+      "args": {
+        "musicId": "1960cfdc-4cb0-4489-8b7d-926aa93f106d"
+      },
+      "id": "3d0d5f3a-71c3-4e22-9b74-37514c2c89e1"
+    },
+    {
+      "command": "EVENT_WAIT",
+      "args": {
+        "time": 2.5,
+        "frames": 30
+      },
+      "id": "4e085caa-ae13-4139-ba9f-52431623d232"
+    },
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "4a175f49-aac5-43d9-9962-ab8a02d87993",
+        "x": {
+          "type": "number",
+          "value": 22
+        },
+        "y": {
+          "type": "number",
+          "value": 16
+        },
+        "direction": "",
+        "fadeSpeed": "2"
+      },
+      "id": "ddfadf3e-6a0e-4997-918e-9fe80723a2b8"
     }
   ],
   "playerHit1Script": [],

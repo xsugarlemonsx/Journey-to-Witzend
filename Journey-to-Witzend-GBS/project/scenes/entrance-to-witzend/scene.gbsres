@@ -9,7 +9,9 @@
   "height": 18,
   "type": "TOPDOWN",
   "paletteIds": [],
-  "spritePaletteIds": [],
+  "spritePaletteIds": [
+    "default-bg-5"
+  ],
   "collisions": "006+0f!005+0f!00d+0f!005+0f!00d+0f!004+0f2+00c+0f!004+0f!00e+0f!003+0f!00f+0f!003+0f!00f+0f!003+0f!00f+0f!003+0f!00f+0f!003+0f!00f+0f!003+0f!00f+0f!004+0f!00f+0f!004+0f!00e+0f!005+0f!00d+0f!006+0f!00c+0f!006+0f!00c+0f!007+0f!00b+0f!007+0f!00b+0f!007+0f!005+",
   "autoFadeSpeed": 1,
   "symbol": "scene_17",
