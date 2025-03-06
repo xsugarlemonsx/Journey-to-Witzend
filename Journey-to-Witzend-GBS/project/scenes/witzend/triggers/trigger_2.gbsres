@@ -77,6 +77,39 @@
         "falseText": "No"
       },
       "id": "1b709778-9bd2-44e6-8f40-07fa5966586e"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "variable",
+          "value": "7"
+        },
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "acbedbc0-8d52-4345-a008-5effcf9624af",
+              "x": {
+                "type": "number",
+                "value": 18
+              },
+              "y": {
+                "type": "number",
+                "value": 16
+              },
+              "direction": "",
+              "fadeSpeed": "2"
+            },
+            "id": "4fc9951b-81de-47d4-b1a4-755a9307a62c"
+          }
+        ],
+        "false": []
+      },
+      "id": "0a512ce8-0fbd-4a6e-a33b-47f6057cc817"
     }
   ],
   "leaveScript": [],

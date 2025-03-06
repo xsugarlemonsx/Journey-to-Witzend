@@ -18,8 +18,8 @@
     ""
   ],
   "spritePaletteIds": [
-    "",
-    "",
+    "default-bg-5",
+    "default-bg-4",
     "default-bg-4"
   ],
   "autoFadeSpeed": 1,

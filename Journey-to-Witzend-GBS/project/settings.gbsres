@@ -11,7 +11,7 @@
   "customHead": "",
   "defaultBackgroundPaletteIds": [
     "default-bg-1",
-    "9ae82082-350a-486d-973c-a8d9cd450186",
+    "f21fffad-155d-4de7-915c-5fc9ff15fd9b",
     "610709be-e509-4e93-836d-2290017451e6",
     "default-bg-4",
     "default-bg-5",
@@ -20,14 +20,14 @@
     "default-ui"
   ],
   "defaultSpritePaletteIds": [
-    "default-sprite",
-    "default-sprite",
-    "default-sprite",
-    "default-sprite",
-    "default-sprite",
-    "default-sprite",
-    "default-sprite",
-    "default-sprite"
+    "default-bg-1",
+    "default-bg-4",
+    "default-bg-5",
+    "f21fffad-155d-4de7-915c-5fc9ff15fd9b",
+    "default-bg-3",
+    "default-bg-6",
+    "default-ui",
+    "9ae82082-350a-486d-973c-a8d9cd450186"
   ],
   "defaultSpritePaletteId": "default-sprite",
   "defaultUIPaletteId": "default-ui",

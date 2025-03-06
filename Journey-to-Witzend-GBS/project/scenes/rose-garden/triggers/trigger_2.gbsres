@@ -4,7 +4,7 @@
   "name": "",
   "prefabId": "",
   "x": 8,
-  "y": 6,
+  "y": 5,
   "symbol": "trigger_32",
   "prefabScriptOverrides": {},
   "width": 6,
@@ -118,8 +118,8 @@
           "type": "variable",
           "value": "8"
         },
-        "__collapseElse": true,
-        "__collapse": true
+        "__collapseElse": false,
+        "__collapse": false
       },
       "children": {
         "true": [

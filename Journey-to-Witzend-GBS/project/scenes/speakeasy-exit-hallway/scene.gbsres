@@ -9,13 +9,23 @@
   "height": 18,
   "type": "TOPDOWN",
   "paletteIds": [],
-  "spritePaletteIds": [],
-  "collisions": "00168+",
+  "spritePaletteIds": [
+    "f21fffad-155d-4de7-915c-5fc9ff15fd9b"
+  ],
+  "collisions": "0078+0f15+00b+0f5+002+0f2+00e+0f2+002+0f!0078+0f!004+0fa+005+0f!004+0f!008+0f!004+0f7+008+0f6+",
   "autoFadeSpeed": 1,
   "symbol": "scene_34",
   "x": 1144,
   "y": 872,
-  "script": [],
+  "script": [
+    {
+      "command": "EVENT_MUSIC_PLAY",
+      "args": {
+        "musicId": "3ff3dc3c-b4c9-4bdc-bce9-f41abc7d3ef5"
+      },
+      "id": "782ed9ef-c448-47b9-8fd6-0a159b238128"
+    }
+  ],
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],

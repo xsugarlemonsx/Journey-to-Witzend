@@ -60,6 +60,16 @@
       "id": "0f6dee2d-090b-4696-b663-3535b97af97d__L0",
       "name": "restart",
       "symbol": "var_restart"
+    },
+    {
+      "id": "10",
+      "name": "beginningdialogue",
+      "symbol": "var_beginningdialogue"
+    },
+    {
+      "id": "11",
+      "name": "talktohatter",
+      "symbol": "var_talktohatter"
     }
   ]
 }

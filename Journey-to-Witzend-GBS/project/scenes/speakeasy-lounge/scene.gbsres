@@ -9,8 +9,10 @@
   "height": 20,
   "type": "TOPDOWN",
   "paletteIds": [],
-  "spritePaletteIds": [],
-  "collisions": "003e8+",
+  "spritePaletteIds": [
+    "610709be-e509-4e93-836d-2290017451e6"
+  ],
+  "collisions": "0f7+005+0f7+001f+0f!0011+0f!001f+0f!0011+0f!001f+0f!0011+0f!001f+0f!0011+0f!001f+0f!0011+0f!001f+0f!0011+0f5+001b+0f!0015+0f!001b+0f!0015+0f!001b+0f!0015+0f!003+0f2+0016+0f!0015+0f1d+0031+0f!0031+0f!0031+0f!0031+0f!0031+0f!0031+0f!0031+0f!0031+0f32+",
   "autoFadeSpeed": 1,
   "symbol": "scene_32",
   "x": 696,

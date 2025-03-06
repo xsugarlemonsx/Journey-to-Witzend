@@ -55,6 +55,11 @@
               "closeDelayFrames": 30
             },
             "id": "f6bdd81c-5009-4806-b8c9-a7d42bba96fd"
+          },
+          {
+            "command": "EVENT_STOP",
+            "args": {},
+            "id": "6712d3cd-8876-4b73-a0fc-1a716c0e43d1"
           }
         ],
         "false": [

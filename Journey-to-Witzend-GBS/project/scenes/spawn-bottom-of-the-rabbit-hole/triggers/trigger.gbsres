@@ -26,6 +26,16 @@
         "fadeSpeed": "2"
       },
       "id": "387780c3-144c-4652-b859-3c07a6dc7344"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "10",
+        "value": {
+          "type": "false"
+        }
+      },
+      "id": "4718b50e-81ee-4729-88b6-0e4dbcbd0bd2"
     }
   ],
   "leaveScript": [],

@@ -15,7 +15,43 @@
   "symbol": "scene_38",
   "x": 1000,
   "y": 1080,
-  "script": [],
+  "script": [
+    {
+      "command": "EVENT_MUSIC_PLAY",
+      "args": {
+        "musicId": "1960cfdc-4cb0-4489-8b7d-926aa93f106d"
+      },
+      "id": "643988d5-84c0-468c-bd5b-558e76df466d"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Congratulations!",
+          "You have found the\ntrue ending!",
+          "Thank you for \nplaying."
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30,
+        "__collapse": true
+      },
+      "id": "cf242178-5104-40f0-a6e6-3057017f6a80"
+    }
+  ],
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": []

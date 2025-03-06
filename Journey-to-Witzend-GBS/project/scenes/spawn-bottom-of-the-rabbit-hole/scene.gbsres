@@ -34,39 +34,65 @@
       "id": "6652bfa8-f3e5-40ec-9506-c4f83928fdb9"
     },
     {
-      "command": "EVENT_ACTOR_EMOTE",
+      "command": "EVENT_IF",
       "args": {
-        "actorId": "$self$",
-        "emoteId": "70a4ce25-1fe4-4ab1-aee9-21255e70fb76"
+        "condition": {
+          "type": "variable",
+          "value": "10"
+        },
+        "__collapseElse": false,
+        "__collapse": false
       },
-      "id": "a586fa5e-40e7-4990-acc2-330966df2d67"
-    },
-    {
-      "command": "EVENT_TEXT",
-      "args": {
-        "text": [
-          "...",
-          "What is this\nplace?",
-          "I have to get\nhome. "
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_EMOTE",
+            "args": {
+              "actorId": "$self$",
+              "emoteId": "70a4ce25-1fe4-4ab1-aee9-21255e70fb76"
+            },
+            "id": "a586fa5e-40e7-4990-acc2-330966df2d67"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "...",
+                "What is this\nplace?",
+                "I have to get\nhome. "
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "96b48c80-d784-47fa-9688-2dea991d62c0"
+          }
         ],
-        "__section": "text",
-        "avatarId": "",
-        "minHeight": 4,
-        "maxHeight": 7,
-        "textX": 1,
-        "textY": 1,
-        "textHeight": 5,
-        "position": "bottom",
-        "clearPrevious": true,
-        "showFrame": "true",
-        "speedIn": -1,
-        "speedOut": -1,
-        "closeWhen": "key",
-        "closeButton": "a",
-        "closeDelayTime": 0.5,
-        "closeDelayFrames": 30
+        "false": [
+          {
+            "command": "EVENT_WAIT",
+            "args": {
+              "time": 0.1,
+              "frames": 30
+            },
+            "id": "ede9b7b2-253f-4e9e-bad7-6b2801abca5d"
+          }
+        ]
       },
-      "id": "96b48c80-d784-47fa-9688-2dea991d62c0"
+      "id": "59ff4274-eaf3-4fef-968f-2ccf517e688f"
     },
     {
       "command": "EVENT_MUSIC_PLAY",

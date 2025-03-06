@@ -1,0 +1,51 @@
+{
+  "_resourceType": "trigger",
+  "id": "b01f21ed-d56b-4c37-8f18-3245112e3ea4",
+  "name": "",
+  "prefabId": "",
+  "x": 7,
+  "y": 24,
+  "symbol": "trigger_82",
+  "prefabScriptOverrides": {},
+  "width": 4,
+  "height": 3,
+  "script": [
+    {
+      "command": "EVENT_ACTOR_EMOTE",
+      "args": {
+        "actorId": "$self$",
+        "emoteId": "70a4ce25-1fe4-4ab1-aee9-21255e70fb76"
+      },
+      "id": "f564eb77-c0a9-40ed-a3f4-b51d212b6579"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "...",
+          "What is this\nplace?",
+          "I have to get\nhome. "
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "135daf71-9f89-48bb-baac-32a7a6015cc7"
+    }
+  ],
+  "leaveScript": [],
+  "_index": 2
+}

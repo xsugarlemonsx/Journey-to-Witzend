@@ -1,0 +1,41 @@
+{
+  "_resourceType": "trigger",
+  "id": "e1834742-5da8-41da-a978-a1e123485907",
+  "name": "",
+  "prefabId": "",
+  "x": 38,
+  "y": 7,
+  "symbol": "trigger_85",
+  "prefabScriptOverrides": {},
+  "width": 2,
+  "height": 2,
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "It's locked."
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "b1840e16-60d0-453f-bb38-e45d0220feec"
+    }
+  ],
+  "leaveScript": [],
+  "_index": 6
+}

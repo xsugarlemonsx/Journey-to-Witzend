@@ -1,0 +1,44 @@
+{
+  "_resourceType": "trigger",
+  "id": "a1f8a3ba-08dc-4aa8-ab82-2747d31012c6",
+  "name": "",
+  "prefabId": "",
+  "x": 26,
+  "y": 9,
+  "symbol": "trigger_81",
+  "prefabScriptOverrides": {},
+  "width": 4,
+  "height": 7,
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "...",
+          "What are you doing\nat the bar?",
+          "You look a little\nyoung for a drink.",
+          "Heh."
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "328e24e6-b05b-465a-97c0-6ba63c37019e"
+    }
+  ],
+  "leaveScript": [],
+  "_index": 2
+}

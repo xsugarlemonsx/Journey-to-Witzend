@@ -16,7 +16,7 @@
         "sceneId": "a7674c84-69f3-433c-9da8-3592a2b4bded",
         "x": {
           "type": "number",
-          "value": 5
+          "value": 4
         },
         "y": {
           "type": "number",
@@ -26,6 +26,16 @@
         "fadeSpeed": "2"
       },
       "id": "11ac688a-1a92-4c8d-b6a2-82deebda831e"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "10",
+        "value": {
+          "type": "true"
+        }
+      },
+      "id": "146c22a7-2160-49aa-bb38-38f66e46214b"
     }
   ],
   "leaveScript": [],

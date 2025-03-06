@@ -16,10 +16,18 @@
     "",
     ""
   ],
-  "spritePaletteIds": [],
-  "autoFadeSpeed": 1,
+  "spritePaletteIds": [
+    "default-bg-5"
+  ],
+  "autoFadeSpeed": 6,
   "playerSpriteSheetId": "532eda68-2964-478a-8d5b-bc239ee35638",
-  "script": [],
+  "script": [
+    {
+      "command": "EVENT_MUSIC_STOP",
+      "args": {},
+      "id": "a75e90ad-0778-4931-978f-c23546d4caae"
+    }
+  ],
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],

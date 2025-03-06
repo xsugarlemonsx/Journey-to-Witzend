@@ -9,7 +9,9 @@
   "height": 18,
   "type": "TOPDOWN",
   "paletteIds": [],
-  "spritePaletteIds": [],
+  "spritePaletteIds": [
+    "default-bg-3"
+  ],
   "collisions": "",
   "autoFadeSpeed": 1,
   "symbol": "scene_9",

@@ -8,5 +8,6 @@
   "imageWidth": 400,
   "imageHeight": 160,
   "filename": "speakeasy.png",
-  "tileColors": ""
+  "tileColors": "013e8+",
+  "autoColor": false
 }

@@ -35,6 +35,16 @@
         "closeDelayFrames": 30
       },
       "id": "1309d1a4-8a93-4081-824f-c6334e0bfc1e"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "9",
+        "value": {
+          "type": "true"
+        }
+      },
+      "id": "f6788de8-e01c-434b-9f1c-775bfdfeb8bb"
     }
   ],
   "leaveScript": [],

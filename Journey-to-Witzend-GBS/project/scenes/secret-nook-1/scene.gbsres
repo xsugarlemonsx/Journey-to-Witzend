@@ -21,7 +21,9 @@
     "",
     ""
   ],
-  "spritePaletteIds": [],
+  "spritePaletteIds": [
+    "default-bg-5"
+  ],
   "autoFadeSpeed": 1,
   "playerSpriteSheetId": "532eda68-2964-478a-8d5b-bc239ee35638",
   "script": [],

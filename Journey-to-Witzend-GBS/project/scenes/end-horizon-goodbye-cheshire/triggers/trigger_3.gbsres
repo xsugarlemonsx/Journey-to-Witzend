@@ -1,0 +1,46 @@
+{
+  "_resourceType": "trigger",
+  "id": "9bbd57ba-fd6f-4feb-8277-4b0c021738b8",
+  "name": "",
+  "prefabId": "",
+  "x": 8,
+  "y": 6,
+  "symbol": "trigger_80",
+  "prefabScriptOverrides": {},
+  "width": 4,
+  "height": 3,
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "You made it!",
+          "You're pretty\nclever!",
+          "...",
+          "Your reality is \njust to the right.",
+          "Good luck out \nthere. ",
+          "I'll miss you. "
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "8f41b69c-f780-4f16-82b6-70de8ff853d3"
+    }
+  ],
+  "leaveScript": [],
+  "_index": 2
+}

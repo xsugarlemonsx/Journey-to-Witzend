@@ -3,8 +3,8 @@
   "id": "fe763b6f-8f91-4b91-a866-932d2a2a1f80",
   "name": "",
   "prefabId": "",
-  "x": 18,
-  "y": 7,
+  "x": 48,
+  "y": 14,
   "symbol": "trigger_65",
   "prefabScriptOverrides": {},
   "width": 2,
@@ -20,7 +20,7 @@
         },
         "y": {
           "type": "number",
-          "value": 8
+          "value": 11
         },
         "direction": "",
         "fadeSpeed": "2"

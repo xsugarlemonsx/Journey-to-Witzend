@@ -3,19 +3,27 @@
   "id": "099429fa-91ea-4c57-939f-2447839761cd",
   "_index": 32,
   "name": "end-horizon-goodbye-cheshire",
-  "backgroundId": "1e5f9d6a-bdbc-43e6-8c34-22f5bb5dea05",
+  "backgroundId": "5365e139-aae3-438b-9fa0-8e2e00aec4e1",
   "tilesetId": "",
   "width": 20,
   "height": 18,
   "type": "TOPDOWN",
   "paletteIds": [],
-  "spritePaletteIds": [],
-  "collisions": "",
-  "autoFadeSpeed": 1,
+  "spritePaletteIds": [
+    "default-bg-4"
+  ],
+  "collisions": "0f15+0012+0f2+0012+0f2+0012+0f2+0012+0f!0013+0f!0013+0f!0013+0f!0013+0f!0013+0f2+0012+0f2+0012+0f2+0012+0f2+0012+0f2+0012+0f2+0012+0f2+0012+0f8+006+0f7+",
+  "autoFadeSpeed": 6,
   "symbol": "scene_35",
   "x": 1392,
   "y": 880,
-  "script": [],
+  "script": [
+    {
+      "command": "EVENT_MUSIC_STOP",
+      "args": {},
+      "id": "3dbf32b9-5beb-456f-b18c-7f223b953ba3"
+    }
+  ],
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],
